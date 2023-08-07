@@ -25,6 +25,7 @@ This provides us our range of numbers that we will brute force to get our factor
 
 
 ===============================================================
+
 2. Pollard p-1 Algorithm
 
 
@@ -78,6 +79,7 @@ in this case, I used log^2(n) as the smoothness bound, material to why this is
 and other potential bounds you could set based on what you are doing will be attached
 
 ==================================
+
 3. Sympy factoring
 
 
@@ -85,6 +87,7 @@ This uses several methods it would seem. It is written entirely in Python accord
 
 
 ==================================
+
 4. Elliptic Curve
 
 Also known as Lenstra's Algorithm
