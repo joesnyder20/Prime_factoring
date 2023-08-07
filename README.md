@@ -1,14 +1,13 @@
- Factors.py takes the length of the number you would like to factor. It will then generate a random number to factor.
- It will use four methods to factor the number and compare the times it takes.
- Brute Force will not execute if the length is above 19
- The program seems to be able to handle lengths up to about 250, sometimes it depends on the number generated.
+Factors.py will generate two prime numbers, p & q, and multiply them in to create a large composite number N. It will then run four different algorithms and compare the different times it takes to factor the number in a bar graph. 
+
+It will first ask you the desired probability that a generated prime number is not prime, by way of the Miller-Rabid Primality test. 
+
+It will then ask for a desired length of p, and it will generate a prime number q that is about the same length. 
 
 
 
-factors_comparison.py runs factors.py for every length in the specified range and compares the time it takes for all methods
-if you have a large range, it will take a while, but the terminal will display the counter. 
-if you want to see just Brute Force, do 1-19
-on my Mac M1, 25-100 took about 22.5 minutes
+
+factors_comparison.py is basically factors.py, except it asks for a lower bound of p and an upper bound. It will run facotrs.py through that range, and show how as the length of p and q increase, the length of time to factor the number increase. 
 
 
 
