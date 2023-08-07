@@ -24,7 +24,7 @@ General Idea: We will take are large number n, and find the square root, then ro
 This provides us our range of numbers that we will brute force to get our factors
 
 
-===============================================================
+====================================================
 
 2. Pollard p-1 Algorithm
 
@@ -78,7 +78,7 @@ works well for the script kitties cause they don't need to understand it!
 in this case, I used log^2(n) as the smoothness bound, material to why this is
 and other potential bounds you could set based on what you are doing will be attached
 
-==================================
+============================
 
 3. Sympy factoring
 
@@ -86,7 +86,7 @@ and other potential bounds you could set based on what you are doing will be att
 This uses several methods it would seem. It is written entirely in Python according to a quick Google search.
 
 
-==================================
+===========================
 
 4. Elliptic Curve
 
