@@ -14,7 +14,7 @@ on my Mac M1, 25-100 took about 22.5 minutes
 
 ==================================================
 1. Brute Force
-==================================================
+
 
 Brute Force is the most inefficient method for factoring a number, 
 but it is the easiest to understand
@@ -26,7 +26,7 @@ This provides us our range of numbers that we will brute force to get our factor
 
 ===============================================================
 2. Pollard p-1 Algorithm
-===============================================================
+
 
 Unique Prime Factorization - This states that all numbers have a unique combination of prime factors
 Suppose we have a large composite number N, we find two large primes, p, and q that are both factors of N 
@@ -79,16 +79,16 @@ and other potential bounds you could set based on what you are doing will be att
 
 ==================================
 3. Sympy factoring
-=================================
+
 
 This uses several methods it would seem. It is written entirely in Python according to a quick Google search.
 
 
 ==================================
 4. Elliptic Curve
-=================================
+
 Also known as Lenstra's Algorithm
-1. Choose a random integer d and an elliptic curve E. For each integer d, there is a corresponding elliptic curve E given by the equation y² = x³ + ax + b, where a and b are chosen such that 4a³ + 27b² ≠ 0 (mod n) .
+1. Choose a random integer d and an elliptic curve E. For each integer d, there is a corresponding elliptic curve E given by the equation y² = x³ + ax + b, where a and b are chosen such that 4a³ + 27b² ≠ 0 (mod n).
 2. Choose a random point P on the curve E.
 3. Compute the multiple [m]P = P + P + ... + P (m times), for some suitably large m.
  	▪	If at any point in the computation of [m]P, you find a non-trivial root of unity r in the ring Z/nZ (which can occur if you find that the denominator of a rational number is not invertible modulo n), then gcd(r,n) is a non-trivial factor of n.
